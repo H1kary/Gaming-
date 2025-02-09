@@ -1,0 +1,158 @@
+.tournaments {
+    margin-top: 200px;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.tournaments-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.tournaments-container__filter {
+    display: flex;
+    gap: 24px;
+}
+
+.tournaments-container__filter a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.tournaments-container__items {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tournaments-container__item {
+    width: 370px;
+    height: 260px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #2C2C2C;
+    overflow: hidden;
+}
+
+.tournaments-container__item>p:nth-of-type(1) {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tournaments-container__item>p:nth-of-type(2) {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+    color: rgba(204, 204, 204, 0.40);
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.tournaments-container__item>h4 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.tournaments-container__item>p:nth-of-type(3) {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+    color: rgba(204, 204, 204, 0.40);
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.tournaments-container__item>p:nth-of-type(3)>span {
+    color: #39FF14;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tournaments-container__item:last-of-type>p:nth-of-type(3)>span {
+    color: #8B0000;
+}
+
+.tournaments-container__item>a {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    width: 170px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFD700;
+    color: #000;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.tournaments-container__item>img {
+    position: absolute;
+    right: 0;
+}
+
+.tournaments-container__item>p:nth-of-type(4) {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: inline-flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}

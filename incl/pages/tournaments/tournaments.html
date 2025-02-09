@@ -1,46 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Турниры</title>
-      <link rel="stylesheet" href="../../../assets/css/style.css" />
-      <link rel="stylesheet" href="tournaments.css" />
-   </head>
-   <body>
-    <header>
-        <div class="header-container">
-           <div class="header-container__logo">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Турниры</title>
+   <link rel="stylesheet" href="../../../assets/css/style.css" />
+   <link rel="stylesheet" href="tournaments.css" />
+</head>
+
+<body>
+   <header>
+      <div class="header-container">
+         <div class="header-container__logo">
             <a href="../../../index.html"><img src="../../../assets/images/static/logo.svg" alt="logo" /></a>
-           </div>
+         </div>
 
-           <div class="header-container__nav">
-              <a href="../reserve/reserve.html">Бронирование</a>
-              <a href="../tournaments/tournaments.html">Турниры</a>
-              <a href="#">Новости</a>
-              <a href="../contacts/contacts.html">Контакты</a>
-           </div>
+         <div class="header-container__nav">
+            <a href="../reserve/reserve.html">Бронирование</a>
+            <a href="../tournaments/tournaments.html">Турниры</a>
+            <a href="#">Новости</a>
+            <a href="../contacts/contacts.html">Контакты</a>
+         </div>
 
-           <div class="header-container__buttons">
-              <a href="../auth/auth.html">Войти</a>
-              <a href="../register/register.html">Зарегистрироваться</a>
-           </div>
-        </div>
-     </header>
+         <div class="header-container__buttons">
+            <a href="../auth/auth.html">Войти</a>
+            <a href="../register/register.html">Зарегистрироваться</a>
+         </div>
+      </div>
+   </header>
 
-      <footer>
-         <div class="container">
-            <div class="footer-container__logo">
-               <a href="../../../index.html"><img src="../../../assets/images/static/logo.svg" alt="logo" /></a>
+   <div class="tournaments">
+      <div class="tournaments-container">
+         <div class="tournaments-container__filter">
+            <a href="#">
+               Соло
+               <img src="../../../assets/images/tournaments/dropdown.svg" alt="">
+            </a>
+            <a href="#">
+               Командные
+               <img src="../../../assets/images/tournaments/dropdown.svg" alt="">
+            </a>
+            <a href="#">
+               Крупные турниры
+               <img src="../../../assets/images/tournaments/dropdown.svg" alt="">
+            </a>
+            <a href="#">
+               Специальные ивенты
+               <img src="../../../assets/images/tournaments/dropdown.svg" alt="">
+            </a>
+         </div>
+         <div class="tournaments-container__items">
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>Командная</p>
+               <h4>Overwatch</h4>
+               <p>статус: <span>регистрация</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/1.png" alt="">
+               <p>12 000₽</p>
             </div>
-
-            <div class="footer-container__nav">
-               <a href="#">Бронирование</a>
-               <a href="#">Турниры</a>
-               <a href="#">Новости</a>
-               <a href="#">Контакты</a>
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>крупный турнир</p>
+               <h4>Counter Strike 2</h4>
+               <p>статус: <span>регистрация</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/2.png" alt="">
+               <p>50 000₽</p>
+            </div>
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>Командная</p>
+               <h4>Valorant</h4>
+               <p>статус: <span>регистрация</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/3.png" alt="">
+               <p>6 000₽</p>
+            </div>
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>специальный ивент</p>
+               <h4>Мир танков</h4>
+               <p>статус: <span>регистрация</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/4.png" alt="">
+               <p>0₽</p>
+            </div>
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>соло</p>
+               <h4>Fortnite</h4>
+               <p>статус: <span>регистрация</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/5.png" alt="">
+               <p>12 000₽</p>
+            </div>
+            <div class="tournaments-container__item">
+               <p>27/04/2025</p>
+               <p>Командная</p>
+               <h4>Dota 2</h4>
+               <p>статус: <span>ЗАВЕРШЕН</span></p>
+               <a href="#">Подробнее</a>
+               <img src="../../../assets/images/tournaments/6.png" alt="">
+               <p>10 000₽</p>
             </div>
          </div>
-      </footer>
-   </body>
+
+      </div>
+   </div>
+
+   <footer>
+      <div class="container">
+         <div class="footer-container__logo">
+            <a href="../../../index.html"><img src="../../../assets/images/static/logo.svg" alt="logo" /></a>
+         </div>
+
+         <div class="footer-container__nav">
+            <a href="#">Бронирование</a>
+            <a href="#">Турниры</a>
+            <a href="#">Новости</a>
+            <a href="#">Контакты</a>
+         </div>
+      </div>
+   </footer>
+</body>
+
 </html>

@@ -1,0 +1,567 @@
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf");
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf");
+   font-weight: 800;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
+   font-weight: 600;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf");
+   font-weight: 200;
+}
+
+@font-face {
+   font-family: "Montserrat Alternates";
+   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf");
+   font-weight: 100;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Bold.ttf");
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Black.ttf");
+   font-weight: 900;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-ExtraBold.ttf");
+   font-weight: 800;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-SemiBold.ttf");
+   font-weight: 600;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Medium.ttf");
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Light.ttf");
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-ExtraLight.ttf");
+   font-weight: 200;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato/Lato-Thin.ttf");
+   font-weight: 100;
+}
+
+@font-face {
+   font-family: "DM Sans", sans-serif;
+   src: url("../fonts/DM_Sans/DMSans.ttf");
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body {
+   font-family: "Montserrat Alternates", sans-serif;
+   background-color: #000000;
+   color: #ffffff;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+/* header-start */
+header {
+   position: absolute;
+   top: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.header-container {
+   background-color: #101010;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+   border-radius: 100px;
+   padding: 20px;
+   width: 1170px;
+}
+.header-container__nav {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.header-container__nav a {
+   color: #fff;
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.header-container__buttons {
+   display: flex;
+   align-items: center;
+   gap: 32px;
+}
+.header-container__buttons a:first-of-type {
+   color: #fff;
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.header-container__buttons a:last-of-type {
+   color: #000;
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   padding: 8px 24px;
+   background-color: #fff;
+   border-radius: 100px;
+}
+/* header-end */
+
+/* main-start */
+main {
+   height: 850px;
+   background: url(../images/home/main/mainbg.png) center center/cover no-repeat;
+}
+main > .container {
+   padding-top: 352px;
+}
+.main-content {
+   margin-left: 94px;
+}
+.main-content h1 {
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 86px; /* 119.444% */
+   letter-spacing: -1px;
+}
+.main-content p {
+   margin-top: 32px;
+   color: rgba(204, 204, 204, 0.8);
+   font-family: "Lato", sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 135%;
+   width: 565px;
+}
+.main-content a {
+   margin-top: 40px;
+   color: #000;
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+   display: inline-flex;
+   padding: 8px 32px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   background: #ffd700;
+}
+/* main-end */
+
+/* popular-games-start */
+.popular-games {
+   padding-top: 100px;
+   background: #101010;
+}
+.popular-games h2 {
+   color: #fff;
+   text-align: center;
+   font-family: "Montserrat Alternates";
+   font-size: 42px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 52px; /* 123.81% */
+   letter-spacing: -0.4px;
+}
+.popular-games > .container > p {
+   width: 764px;
+   margin: 0 auto;
+   margin-top: 20px;
+   color: #ccc;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+   opacity: 0.7;
+}
+.popular-games__items {
+   margin-top: 52px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.popular-games__items-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.popular-games__items-item div {
+   width: 270px;
+   height: 160px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   border: 2px solid #323232;
+   background: #212121;
+}
+.popular-games__items-item p {
+   color: #fff;
+   text-align: center;
+
+   /* Text / Article */
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px; /* 155.556% */
+}
+/* popular-games-end */
+
+/* events-schedule-start */
+.events-schedule {
+   padding: 100px 0px;
+   background: #101010;
+}
+.events-schedule .container {
+   display: flex;
+   justify-content: space-between;
+}
+.events-schedule__big-card {
+   width: 770px;
+   height: 430px;
+   flex-shrink: 0;
+   border-radius: 30px;
+   border: 2px solid #323232;
+   background: #212121;
+   position: relative;
+   overflow: hidden;
+}
+.events-schedule__big-card p:first-of-type {
+   position: absolute;
+   top: 45px;
+   left: 45px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "DM Sans", sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+}
+.events-schedule__big-card h4 {
+   position: absolute;
+   top: 61px;
+   left: 45px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 32px; /* 145.455% */
+}
+.events-schedule__big-card p:nth-of-type(2) {
+   position: absolute;
+   top: 98px;
+   left: 45px;
+   color: #ccc;
+   font-family: "DM Sans", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.events-schedule__big-card p:last-of-type {
+   position: absolute;
+   top: 139px;
+   left: 45px;
+   width: 336.731px;
+   color: #808080;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+}
+.events-schedule__big-card a {
+   position: absolute;
+   bottom: 30px;
+   left: 45px;
+   display: inline-flex;
+   padding: 8px 32px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   background: #ffd700;
+   color: #000;
+   text-align: center;
+   font-family: "DM Sans", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+}
+.events-schedule__big-card img {
+   position: absolute;
+   right: 0;
+}
+.events-schedule__small-cards {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.events-schedule__small-card {
+   width: 370px;
+   height: 200px;
+   flex-shrink: 0;
+   border-radius: 30px;
+   border: 2px solid #323232;
+   background: #212121;
+   position: relative;
+   overflow: hidden;
+}
+.events-schedule__small-card p:first-of-type {
+   position: absolute;
+   left: 30px;
+   top: 35px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "DM Sans", sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+}
+.events-schedule__small-card h4 {
+   position: absolute;
+   left: 30px;
+   top: 51px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+.events-schedule__small-card p:last-of-type {
+   position: absolute;
+   left: 30px;
+   top: 84px;
+   color: #ccc;
+   font-family: "DM Sans", sans-serif;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.events-schedule__small-card a {
+   position: absolute;
+   left: 30px;
+   bottom: 20px;
+   display: inline-flex;
+   padding: 8px 16px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   background: #ffd700;
+   color: #000;
+   text-align: center;
+   font-family: "DM Sans", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+}
+.events-schedule__small-card img {
+   position: absolute;
+   right: 0;
+}
+/* events-schedule-end */
+
+/* hero-form-start */
+.hero-form {
+   padding: 66px 0px 108px 0px;
+   background: #101010;
+}
+.hero-form .container h2 {
+   color: #fff;
+   text-align: center;
+   font-family: "Montserrat Alternates";
+   font-size: 42px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 52px;
+   letter-spacing: -0.4px;
+}
+.hero-form .container form {
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hero-form .container form input:first-of-type,
+.hero-form .container form input:nth-of-type(2) {
+   width: 380px;
+   height: 60px;
+   flex-shrink: 0;
+   border-radius: 100px;
+   border: 2px solid #ebeaed;
+   background: none;
+   color: #ccc;
+   font-family: "DM Sans", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+   padding-left: 24px;
+}
+.hero-form .container form input:last-of-type {
+   display: inline-flex;
+   padding: 17px 50px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   background: #ffd700;
+   color: #000;
+   text-align: center;
+   font-family: "DM Sans", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+}
+.hero-form .container p {
+   margin-top: 56px;
+   color: #ccc;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+}
+.hero-form .container p span {
+   color: #ccc;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+   text-decoration-line: underline;
+   text-decoration-style: solid;
+   text-decoration-skip-ink: none;
+   text-decoration-thickness: auto;
+   text-underline-offset: auto;
+   text-underline-position: from-font;
+   cursor: pointer;
+}
+/* hero-form-end */
+
+/* footer-start */
+footer {
+   margin-top: 40px;
+   margin-bottom: 40px
+}
+footer .container {
+   display: flex;
+   width: 1170px;
+   padding: 20px;
+   border-radius: 100px;
+   background: #101010;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-container__nav {
+   display: flex;
+   gap: 40px;
+}
+.footer-container__nav a {
+   color: #fff;
+   font-family: "DM Sans", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+/* footer-end */

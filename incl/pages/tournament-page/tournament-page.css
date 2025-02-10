@@ -1,0 +1,148 @@
+.tournament-page {
+   margin-top: 200px;
+   background: #101010;
+   padding: 100px 0;
+}
+
+.tournament-page .container {
+   width: 1170px;
+   height: 510px;
+   flex-shrink: 0;
+   border-radius: 30px;
+   border: 2px solid var(--add-color, #323232);
+   background: #212121;
+   position: relative;
+   overflow: hidden;
+}
+
+.tournament-page__registration p:first-of-type {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+
+.tournament-page__registration p:last-of-type {
+   position: absolute;
+   top: 53px;
+   left: 30px;
+   color: #39ff14;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+
+.tournament-page__data p:first-of-type {
+   position: absolute;
+   top: 30px;
+   left: 439px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+
+.tournament-page__data p:last-of-type {
+   position: absolute;
+   top: 53px;
+   left: 439px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+.tournament-page__button {
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+   display: inline-flex;
+   padding: 8px 24px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   background: #ffd700;
+   color: #000;
+   text-align: center;
+   font-family: "DM Sans", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 26px;
+}
+
+.tournament-page__prize p:first-of-type {
+   position: absolute;
+   bottom: 74px;
+   left: 398px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.tournament-page__prize p:last-of-type {
+   position: absolute;
+   bottom: 30px;
+   left: 398px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px; /* 77.778% */
+}
+.tournament-page__image {
+   position: absolute;
+   right: 0;
+}
+.tournament-page__main p {
+   position: absolute;
+   top: 121px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.tournament-page__main h2 {
+   position: absolute;
+   top: 156px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px; /* 70% */
+}
+
+.tournament-page__description p {
+   position: absolute;
+   top: 216px;
+   left: 30px;
+   width: 463px;
+   color: #808080;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+}

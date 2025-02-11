@@ -1,0 +1,138 @@
+.contacts {
+   margin-top: 200px;
+   background: #101010;
+   padding: 84px 0;
+}
+.contacts .container {
+   width: 1170px;
+   height: 510px;
+   flex-shrink: 0;
+   border-radius: 30px;
+   border: 2px solid #323232;
+   background: #212121;
+   position: relative;
+   overflow: hidden;
+}
+.contacts .container iframe {
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 510px;
+}
+.contacts-container__name p {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.contacts-container__name h4 {
+   position: absolute;
+   top: 65px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+.contacts-container__adress p {
+   position: absolute;
+   top: 123px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.contacts-container__adress a {
+   position: absolute;
+   top: 146px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px; /* 140% */
+}
+
+.contacts-container__time p {
+   position: absolute;
+   top: 194px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.contacts-container__time h4 {
+   position: absolute;
+   top: 217px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px; /* 140% */
+}
+
+.contacts-container__tel p {
+   position: absolute;
+   top: 265px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.contacts-container__tel a {
+   position: absolute;
+   top: 288px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}
+.contacts-container__email p {
+   position: absolute;
+   top: 336px;
+   left: 30px;
+   color: rgba(204, 204, 204, 0.4);
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: lowercase;
+}
+.contacts-container__email a {
+   position: absolute;
+   top: 359px;
+   left: 30px;
+   color: #fff;
+   font-family: "Montserrat Alternates";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+}

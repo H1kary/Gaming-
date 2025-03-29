@@ -136,3 +136,56 @@
    font-weight: 700;
    line-height: 28px;
 }
+@media screen and (max-width: 1024px) {
+   .contacts .container iframe{
+      right: -15%;
+   }
+   
+   .contacts-container {
+       width: 90%;
+       margin-top: 100px;
+   }
+   
+   .contacts-info {
+       flex-direction: column;
+   }
+   
+   .contacts-info-left, 
+   .contacts-info-right {
+       width: 100%;
+   }
+   
+   .contacts-info-right {
+       margin-top: 30px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .contacts-container h2 {
+       font-size: 28px;
+   }
+   
+   .contact-item {
+       padding: 15px;
+   }
+   
+   .contact-item h3 {
+       font-size: 20px;
+   }
+   
+   .contact-item p {
+       font-size: 16px;
+   }
+   
+   .contact-form input,
+   .contact-form textarea {
+       padding: 12px 15px;
+       font-size: 16px;
+   }
+   
+   .contact-form button {
+       padding: 12px 0;
+       font-size: 16px;
+   }
+}
+

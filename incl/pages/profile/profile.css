@@ -160,3 +160,80 @@
    font-weight: 500;
    line-height: 135%;
 }
+@media screen and (max-width: 1024px) {
+   .profile-history__item-date > p {
+      font-size: 16px;
+   }
+   .profile-history__item-date {
+      left: 5%;
+   }
+   .profile-history__item-time {
+      left: 25%;
+   }
+   .profile-history__item-map {
+      left: 50%;
+   }
+   .profile-history__item-pc {
+      left: 80%;
+   }
+   .profile-history__item-time > p {
+      font-size: 16px;
+   }
+   .profile-history__item-map > p {
+      font-size: 16px;
+   }
+   .profile-history__item-pc > p {
+      font-size: 16px;
+   }
+   .profile-history__item {
+      width: 100%;
+   }
+}
+
+/* Адаптивные стили */
+@media screen and (max-width: 1024px) {
+    .profile-container {
+        width: 90%;
+        margin-top: 100px;
+    }
+    
+    .profile-content {
+        flex-direction: column;
+    }
+    
+    .profile-sidebar, 
+    .profile-main {
+        width: 100%;
+    }
+    
+    .profile-main {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-container h2 {
+        font-size: 28px;
+    }
+    
+    .profile-sidebar {
+        padding: 20px;
+    }
+    
+    .profile-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .profile-info h3 {
+        font-size: 20px;
+    }
+    
+    .profile-info p {
+        font-size: 16px;
+    }
+    
+    .profile-main-section h3 {
+        font-size: 20px;
+    }
+}

@@ -149,3 +149,9 @@
    font-weight: 400;
    line-height: 26px; /* 162.5% */
 }
+
+@media screen and (max-width: 1024px) {
+   .tournament-page__image{
+      right: -30%;
+   }
+}

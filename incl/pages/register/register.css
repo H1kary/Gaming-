@@ -138,3 +138,50 @@
    font-weight: 500;
    line-height: 26px; /* 144.444% */
 }
+
+@media screen and (max-width: 1024px) {
+   .auth-container {
+      margin: 0 auto;
+      max-width: 370px !important;
+   }
+   .auth-container > div:last-of-type {
+      margin: 0 auto;
+      margin-top: 20px;
+      max-width: fit-content;
+   }
+   .auth-container > a {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      max-width: fit-content;
+   }
+}
+
+/* Адаптивные стили */
+@media screen and (max-width: 1024px) {
+    .register-container {
+        width: 90%;
+        max-width: 500px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .register-container {
+        padding: 30px 20px;
+    }
+    
+    .register-container h2 {
+        font-size: 28px;
+    }
+    
+    .register-form input {
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+    
+    .register-form button {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
